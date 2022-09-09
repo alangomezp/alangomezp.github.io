@@ -1,0 +1,268 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 1.1em !important;
+  font-weight: 400 !important;
+}
+
+.portfolio-titles{
+  background-color: #edebd7;
+  padding: 50px;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-navbar {
+  background-color: #423e37;
+  padding: 0 !important;
+  height: 6%;
+}
+
+
+
+.social-media {
+  display: flex;
+  font-size: 1.8em;
+}
+
+.social-item {
+  margin-right: 15px;
+}
+
+.custom-navbar-bottom {
+  padding: 0 !important;
+}
+
+.main {
+  position: absolute;
+  top: 6%;
+  width: 100%;
+}
+
+.custom-container {
+  height: 100%;
+}
+ul.nav {
+  height: 100%;
+}
+.navbar-brand {
+  height: 100%;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item:hover {
+  background-color: #e3b23c;
+}
+
+.active{
+  background-color: #e3b23c;
+}
+
+div.landing{
+  margin: 0px;
+  background-image:url(https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  background-color: #999;
+	height:800px;
+}
+
+div.overlay{
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+
+div.landing-title{
+  transition: ease-in .7s;
+}
+
+div.landing-title h1{
+  color: #ffffff;
+  font-size: 5em;
+  backdrop-filter: blur(15px);
+}
+
+
+div.presentation-div {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  background-color: #e3b23c;
+  padding: 10px;
+}
+
+img.foto-perfil {
+  margin-left: 4em;
+  border: solid 10px #edebd7;
+  border-radius: 100%;
+  height: 200px;
+}
+
+p.presentation-text b {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+p.presentation-text span {
+  font-size: 1.3em;
+  text-align: justify;
+}
+.circle {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 250px;
+  background-color: #423e37;
+}
+
+.circle-item {
+  position: relative;
+  bottom: 50px;
+  margin: 10px auto;
+  background-color: rgb(255, 255, 255, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 50%;
+  width: 250px;
+  transition: ease-in 2s ;
+  cursor: pointer;
+}
+
+.circle-img {
+  border-radius: 50%;
+  padding: 15px;
+  width: 250px;
+  height: 250px;
+  overflow: hidden !important;
+}
+
+.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #423e37;
+}
+
+.carousel-arrow{
+  color: #edebd7;
+  font-size: 50px;
+  padding: 40px;
+}
+
+.carousel-arrow i {
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.carousel-arrow i:hover{
+  opacity: 0.5;
+  transition: ease-in-out 0.3s;
+}
+
+
+.efecto-circle{
+  transition: transform 0.5s;
+}
+
+.efecto-circle:hover{
+  transform: translate(10px);
+}
+
+.experience-container{
+  display: grid;
+  grid-gap:3rem;
+  grid-auto-rows: 30rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  padding: 2rem;
+  background: rgb(227,178,60);
+  background: linear-gradient(0deg, rgba(227,178,60,1) 0%, rgba(237,235,215,1) 100%);
+}
+
+.card-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px 15px 0 0;
+  background-color: rgb(255, 255, 255, 0.4);
+  box-shadow: 1px -5px 44px -5px rgba(31,29,29,0.61);
+  backdrop-filter: blur(4px);
+  transition: 0.6s;
+  overflow: hidden !important;
+}
+
+.card-main:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  backdrop-filter: blur(2px);
+}
+
+.card-head{
+  text-align: center;
+}
+
+.card-head img{
+  border-radius: 50%;
+  padding: 15px;
+  width: 150px;
+  height: 150px;
+}
+
+.card-body{
+  text-align: justify;
+}
+
+.card-button{
+  width: 100%;
+  border:none;
+  height: 4rem;
+  border-radius: 0 0 15px 15px;
+  transition: 0.5s;
+}
+ 
+.card-button:hover{
+  background-color: #423e37;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #423e37;
+  position: absolute;
+  top: 100%;
+  height: 10%;
+  width: 100%;
+  padding: 0 30px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 1536px) {
+  div.landing{
+    height:650px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  div.landing{
+    height:850px;
+  }
+}
