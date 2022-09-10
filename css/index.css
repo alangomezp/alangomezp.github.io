@@ -219,7 +219,6 @@ p.presentation-text span {
 }
 
 .card-head img{
-  border-radius: 50%;
   padding: 15px;
   width: 150px;
   height: 150px;
@@ -240,6 +239,13 @@ p.presentation-text span {
 .card-button:hover{
   background-color: #423e37;
   color: #fff;
+}
+
+.charts-css td{
+  --color: #423e37; 
+  color: #fff;
+  border-radius: 5px;
+  padding-right: 10px !important;
 }
 
 footer {
